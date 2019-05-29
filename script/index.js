@@ -7,8 +7,19 @@ const menu = document.querySelector('.menu');
 burger.addEventListener ('click',()=> {
     burger.classList.toggle('active');
     opacity0();
-    opacity0Accroche();
+    
+});
 
+about.addEventListener ('click',()=> {  
+    opacity0();
+});
+
+work.addEventListener ('click',()=> {  
+    opacity0();
+});
+
+contact.addEventListener ('click',()=> {  
+    opacity0();
 });
 
 function opacity0() {
