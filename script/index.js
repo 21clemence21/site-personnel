@@ -37,25 +37,32 @@ function opacity0() {
 
 work.addEventListener("mouseover",function( event ) {
     work.style.transform = 'translateX(30%)';
+    menu.style.backgroundColor = 'rgb(66, 52, 52)';
     
     setTimeout(function(){
         event.target.style.transform = "";
+        menu.style.backgroundColor = '';
+
     }, 1500);
 }), false;
 
 contact.addEventListener("mouseover",function( event ) {
     contact.style.transform = 'translateX(30%)';
+    menu.style.backgroundColor = 'red';
 
     setTimeout(function(){
         event.target.style.transform = "";
+        menu.style.backgroundColor = '';
     }, 1500);
 }), false;
 
 about.addEventListener("mouseover",function( event ) {
     about.style.transform = 'translateX(30%)';
+    menu.style.backgroundColor = 'red';
 
     setTimeout(function(){
         event.target.style.transform = "";
+        menu.style.backgroundColor = '';
     }, 1500);
 }), false;
 
